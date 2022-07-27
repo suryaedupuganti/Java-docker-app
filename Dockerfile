@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:11
 
 COPY /src/ /var/www/java
 WORKDIR /var/www/java
